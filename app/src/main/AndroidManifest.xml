@@ -18,7 +18,11 @@
         </activity>
         <activity android:name=".profile" />
         <activity android:name=".Schedule" />
-        <activity android:name=".logout"></activity>
+        <activity android:name=".logout" />
+        <activity android:name=".holidaylist" />
+        <activity android:name=".leaveAdd" />
+        <activity android:name=".HolidayADD" />
+        <activity android:name=".Leavesummary"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/PrimaryDark2"
+    tools:context=".HolidayADD">
+
+    <TextView
+
+        android:id="@+id/tvDate"
+        android:layout_width="380dp"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginTop="208dp"
+        android:text="13/09/18"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="376dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="156dp"
+        android:layout_toStartOf="@+id/tvDate"
+        android:text="Enter Date"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/buttonsave"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="372dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/white"
+        android:text="SAVE"
+        android:textAllCaps="false"
+        android:textColor="@color/PrimaryDark2"
+        android:textColorLink="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="ADD holiday"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

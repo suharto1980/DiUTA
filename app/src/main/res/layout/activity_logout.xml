@@ -4,6 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/olke"
     tools:context=".logout">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/offehite"
+        android:text="Log out"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="@color/olke"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewday"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="M O N D A Y"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewdate"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="144dp"
+        android:text="07-Sep-2018"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </android.support.constraint.ConstraintLayout>
